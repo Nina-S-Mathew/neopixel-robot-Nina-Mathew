@@ -1,0 +1,5 @@
+let strip = neopixel.create(DigitalPin.P12, 2, NeoPixelMode.RGB)
+strip.setBrightness(15)
+strip.setPixelColor(0, neopixel.colors(NeoPixelColors.Red))
+strip.setPixelColor(1, neopixel.colors(NeoPixelColors.Green))
+strip.show()
