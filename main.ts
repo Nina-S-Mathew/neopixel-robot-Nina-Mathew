@@ -12,5 +12,7 @@ strip = neopixel.create(DigitalPin.P1, 16, NeoPixelMode.RGB)
 strip.showRainbow(1, 360)
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
-	
+    strip.rotate(1)
+    basic.pause(200)
+    strip.show()
 })
