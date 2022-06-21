@@ -8,7 +8,7 @@ input.onButtonPressed(Button.B, function () {
     strip.showColor(neopixel.colors(NeoPixelColors.Red))
 })
 let strip: neopixel.Strip = null
-strip = neopixel.create(DigitalPin.P1, 16, NeoPixelMode.RGB)
+strip = neopixel.create(DigitalPin.P1, 37, NeoPixelMode.RGB)
 strip.showRainbow(1, 360)
 basic.showIcon(IconNames.Happy)
 basic.forever(function () {
